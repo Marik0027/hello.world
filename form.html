@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <center>
+            <a href="index.html"><img src="img/back.png" width="100"></a>
+        <h2>You can ask questions.</h2>
+        </center>
+    </header>
+    <main>
+        <form action="https://formspree.io/mayprvlg" method="POST">
+            <br>
+                <label><b>Your name:</b>
+                    <input type="text" placeholder="Name" required>
+                </label>
+            </br>
+            <b>Gender:</b>
+            <br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male"><i>Male</i></label><br>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female"><i>Female</i></label><br>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other"><i>Other</i></label>
+            </br>
+            <br>
+                <label><b>Your email:</b>
+                    <input type="text" placeholder="Email" required>
+                </label>
+            </br>
+            <br>
+                <label><b>Your text:</b>
+                    <input type="text" placeholder="Do you have question?" required>
+                </label>
+            </br>
+            <br>
+                <input type="submit">
+            </br>
+        </form>
+    </main>
+</body>
+</html>
